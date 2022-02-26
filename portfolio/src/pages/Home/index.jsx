@@ -5,11 +5,11 @@ function Home() {
   return (
     <WrapperHome>
       <ContentHome>
-        <h1 className='text-6xl font-black text-custom-yellow'>
+        <h1 className='text-6xl font-black'>
           Jonatas Passos
         </h1>
 
-        <p>
+        <p className='text-secondary'>
           Seja bem vindo ao meu portfolio
         </p>
       </ContentHome>

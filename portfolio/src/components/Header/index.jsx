@@ -23,7 +23,7 @@ function Header() {
               rel="noreferrer"
             >
               <img
-                className='hover:bg-white rounded-lg'
+                className='hover:bg-tertiary rounded-lg'
                 width="40"
                 src={ iconLikedin }
                 alt="icone do likedin"
@@ -38,7 +38,7 @@ function Header() {
               rel="noreferrer"
             >
               <img
-                className='hover:bg-white rounded-full'
+                className='hover:bg-tertiary rounded-full'
                 width="45"
                 src={ iconGitHub }
                 alt="icone do likedin"
@@ -53,7 +53,7 @@ function Header() {
               rel="noreferrer"
             >
               <img
-                className='hover:bg-white rounded-full'
+                className='hover:bg-tertiary rounded-full'
                 width="50"
                 src={ iconEmail }
                 alt="icone do likedin"

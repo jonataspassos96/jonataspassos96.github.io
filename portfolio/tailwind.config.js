@@ -5,11 +5,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'neutral': '#0f0f0f',
-        'custom-yellow': '#d4810c',
+        'primary': '#0f0f0f',
+        'secondary': '#d4810c',
+        'tertiary': '#f2f2f2',
       },
       backgroundImage: {
         'home-texture': "url('./assets/images/bg-home.jpg')",
+        'about-texture': "url('./assets/images/bg-about.jpeg')",
       },
     },
   },

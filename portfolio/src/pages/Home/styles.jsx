@@ -3,7 +3,6 @@ import tw from "tailwind-styled-components";
 export const WrapperHome = tw.div`
   bg-home-texture
   bg-cover
-  bg-opacity-100
   w-full
   h-screen
   flex
@@ -12,7 +11,7 @@ export const WrapperHome = tw.div`
 `;
 
 export const ContentHome = tw.main`
-  text-white
+  text-tertiary
   text-xl
   text-center
   leading-8
