@@ -5,8 +5,7 @@ export const WrapperHeader = tw.header`
     items-center
     justify-center
     w-full
-    bg-green-600
-    opacity-70
+    bg-custom-yellow
     fixed
     top-0
 `
@@ -14,15 +13,16 @@ export const WrapperHeader = tw.header`
 export const NavBar = tw.ul`
   text-black
     w-2/4
+    ml-14
     flex
     flex-wrap
     items-center
-    justify-between
+    justify-start
 `
 
 export const NavIcons = tw.ul`
-  text-black
-    w-1/4
+    w-2/4
+    mr-14
     flex
     flex-wrap
     items-center
@@ -32,7 +32,6 @@ export const NavIcons = tw.ul`
 export const NavItems = tw.li`
     p-5
     hover:text-white duration-500
-    font-semibold
+    font-black
     text-lg
-    font-mono
 `

@@ -1,7 +1,8 @@
 import React from 'react'
-import { NavItems, NavBar, NavIcons, WrapperHeader } from './styles'
+import { NavItems, NavBar, NavIcons, WrapperHeader, Anaua } from './styles'
 import iconLikedin from '../../assets/images/icon-linkedin.png'
 import iconGitHub from '../../assets/images/icon-github.png'
+import iconEmail from '../../assets/images/icon-email.png'
 
 function Header() {
   return (
@@ -29,6 +30,7 @@ function Header() {
               />
             </a>
           </NavItems>
+
           <NavItems>
             <a
               href="https://github.com/jonataspassos96"
@@ -37,8 +39,23 @@ function Header() {
             >
               <img
                 className='hover:bg-white rounded-full'
-                width="40"
+                width="45"
                 src={ iconGitHub }
+                alt="icone do likedin"
+              />
+            </a>
+          </NavItems>
+
+          <NavItems>
+            <a
+              href="https://mail.google.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className='hover:bg-white rounded-full'
+                width="50"
+                src={ iconEmail }
                 alt="icone do likedin"
               />
             </a>

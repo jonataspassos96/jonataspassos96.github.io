@@ -1,13 +1,13 @@
 import './styles.js';
 import Header from './components/Header';
 import WrapperApp from './styles.js';
-import About from './pages/About';
+import Home from './pages/Home';
 
 function App() {
-  return (    
+  return (
     <WrapperApp>
       <Header />
-      <About />
+      <Home />
     </WrapperApp>
   );
 }

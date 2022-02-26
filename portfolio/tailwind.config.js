@@ -5,12 +5,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        neutral: '#0f0f0f'
+        'neutral': '#0f0f0f',
+        'custom-yellow': '#d4810c',
       },
-      fontFamily: {
-        'sans': ['Helvetica Neue', 'ui-sans-serif'],
-        'serif': ['Times New Roman', 'Georgia'],
-        'mono': ['ui-monospace', 'SFMono-Regular'],
+      backgroundImage: {
+        'home-texture': "url('./assets/images/bg-home.jpg')",
       },
     },
   },
