@@ -4,14 +4,15 @@ export const WrapperAbout = tw.div`
   bg-neutral
   w-full
   h-screen
+  p-2.5
 `;
 
 export const Content = tw.main`
   py-20
+  mx-16
   w-2/4
   text-white
-`;
-
-export const Paragraph = tw.p`
-  text-lg
+  text-xl
+  leading-8
+  font-semibold
 `;

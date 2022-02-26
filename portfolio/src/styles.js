@@ -1,7 +1,7 @@
 import tw from "tailwind-styled-components";
 
 const WrapperApp = tw.div`
-  bg-blue-400
+  bg-white
 `
 
 export default WrapperApp;
