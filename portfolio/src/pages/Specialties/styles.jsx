@@ -1,7 +1,7 @@
 import tw from 'tailwind-styled-components';
 
 export const WrapperSpecialties = tw.div`
-  bg-home-texture
+  bg-primary
   bg-cover
   w-full
   flex
@@ -32,13 +32,14 @@ bg-primary
 
 export const Image = tw.img`
   ${props => props.validation === 'GIT' ? 'bg-tertiary rounded-full' : ''}
-  w-16
+  w-20
   mt-5
   mr-3
 `;
 
 export const Title = tw.h3`
-  px-6 py-4
+  px-6
+  py-4
   text-secondary
   font-bold
   text-xl
@@ -50,4 +51,6 @@ export const Title = tw.h3`
 export const Description = tw.p`
   text-tertiary
   text-base
+  text-justify
+  p-5
 `;
