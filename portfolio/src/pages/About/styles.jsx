@@ -1,24 +1,24 @@
 import tw from 'tailwind-styled-components';
 
 export const WrapperAbout = tw.div`
-  bg-about-texture
+  bg-gradient-to-r from-tertiary via-neutral-300 to-tertiary
   bg-cover
   w-full
   h-screen
   flex
-  justify-around
+  justify-center
   items-center
 `;
 
-export const ContainerAbout = tw.main`
+export const ContentAbout = tw.main`
   bg-primary
   text-tertiary
-  text-xl
+  text-lg
   font-black
   text-justify
   leading-8
   w-1/2
-  p-5
+  p-10
   rounded-lg
   flex
   flex-col
@@ -27,6 +27,6 @@ export const ContainerAbout = tw.main`
 `;
 
 export const ContainerAboutImg = tw.aside`
-  bg-primary
+  shadow-xl
   rounded-lg
 `;

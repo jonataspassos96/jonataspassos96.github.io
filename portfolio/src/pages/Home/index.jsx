@@ -1,5 +1,6 @@
 import React from 'react'
-import { ContentHome, WrapperHome } from './styles';
+import { ContentHome, ContentImage, WrapperHome } from './styles';
+import imageHome from '../../assets/images/image-home.svg';
 
 function Home() {
   return (
@@ -9,10 +10,17 @@ function Home() {
           Jonatas Passos
         </h1>
 
-        <p className='text-secondary'>
-          Seja bem vindo ao meu portfolio
+        <p className='text-zinc-400 tracking-wide leading-loose animate-pulse'>
+        &lt; Seja bem vindo ao meu portfolio /&gt;
         </p>
       </ContentHome>
+
+      <ContentImage>
+        <img
+          src={ imageHome }
+          alt='Imagem do home'
+        />
+      </ContentImage>
     </WrapperHome>
   )
 }

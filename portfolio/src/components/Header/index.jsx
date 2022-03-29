@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavItems, NavBar, NavIcons, WrapperHeader, Anaua } from './styles'
+import { NavItems, NavBar, NavIcons, WrapperHeader } from './styles'
 import iconLikedin from '../../assets/images/icon-linkedin.png'
 import iconGitHub from '../../assets/images/icon-github.png'
 import iconEmail from '../../assets/images/icon-email.png'
@@ -12,7 +12,7 @@ function Header() {
         <NavItems>Sobre</NavItems>
         <NavItems>Conhecimentos</NavItems>
         <NavItems>Projetos</NavItems>
-        <NavItems>Contatos</NavItems>
+        <NavItems>Contato</NavItems>
       </NavBar>
 
       <NavIcons>
@@ -23,10 +23,10 @@ function Header() {
               rel="noreferrer"
             >
               <img
-                className='hover:bg-tertiary rounded-lg'
-                width="40"
+                className='hover:opacity-40'
+                width="30"
                 src={ iconLikedin }
-                alt="icone do likedin"
+                alt="icone do lin kedin"
               />
             </a>
           </NavItems>
@@ -38,8 +38,8 @@ function Header() {
               rel="noreferrer"
             >
               <img
-                className='hover:bg-tertiary rounded-full'
-                width="45"
+                className='hover:opacity-40'
+                width="34"
                 src={ iconGitHub }
                 alt="icone do likedin"
               />
@@ -53,8 +53,8 @@ function Header() {
               rel="noreferrer"
             >
               <img
-                className='hover:bg-tertiary rounded-full'
-                width="50"
+                className='hover:opacity-40'
+                width="38"
                 src={ iconEmail }
                 alt="icone do likedin"
               />
