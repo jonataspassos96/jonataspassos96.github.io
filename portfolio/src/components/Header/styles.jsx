@@ -5,9 +5,10 @@ export const WrapperHeader = tw.header`
     items-center
     justify-center
     w-full
-    bg-tertiary
+    bg-white
     fixed
     top-0
+    z-10
 `;
 
 export const NavBar = tw.ul`

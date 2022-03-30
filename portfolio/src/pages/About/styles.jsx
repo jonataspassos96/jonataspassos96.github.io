@@ -1,25 +1,36 @@
 import tw from 'tailwind-styled-components';
 
+
 export const WrapperAbout = tw.div`
-  bg-gradient-to-r from-tertiary via-neutral-300 to-tertiary
-  bg-cover
-  w-full
+  bg-zinc-200
   h-screen
   flex
   justify-center
   items-center
 `;
 
+export const Pai = tw.div`
+  shadow-lg
+  shadow-violet-800/70
+  flex
+  justify-center
+  items-center
+  w-4/5
+
+  rounded-lg
+`;
+
 export const ContentAbout = tw.main`
-  bg-primary
-  text-tertiary
+  bg-white
+  text-stone-800
   text-lg
   font-black
   text-justify
   leading-8
-  w-1/2
-  p-10
-  rounded-lg
+  w-3/4
+  p-6
+  pt-12
+  rounded-r-lg
   flex
   flex-col
   flex-wrap
@@ -27,6 +38,5 @@ export const ContentAbout = tw.main`
 `;
 
 export const ContainerAboutImg = tw.aside`
-  shadow-xl
-  rounded-lg
+  rounded-l-lg
 `;

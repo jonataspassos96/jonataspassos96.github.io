@@ -13,9 +13,6 @@ module.exports = {
         'home-texture': "url('./assets/images/bg-home.jpg')",
         'about-texture': "url('./assets/images/bg-about.jpeg')",
       },
-      fontFamily: {
-        
-      },
     },
   },
   plugins: [],

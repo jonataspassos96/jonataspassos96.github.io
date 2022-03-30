@@ -10,7 +10,9 @@ function Home() {
           Jonatas Passos
         </h1>
 
-        <p className='text-zinc-400 tracking-wide leading-loose animate-pulse'>
+        <p
+          className='text-zinc-400 tracking-wide leading-loose animate-pulse'
+        >
         &lt; Seja bem vindo ao meu portfolio /&gt;
         </p>
       </ContentHome>
